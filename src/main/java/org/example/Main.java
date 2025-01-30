@@ -9,7 +9,7 @@ import static spark.Spark.*;
 
 public class Main {
     public static void main(String[] args) {
-        port(8080);
+        port(4567);
 
         // Crear instancias del repositorio y del servicio
         QrCodeRepository qrCodeRepository = new QrCodeRepository();
